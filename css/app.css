@@ -1,0 +1,52 @@
+body{
+    margin: 0rem;
+    background-image: url(../img/space.gif);
+    font-family: "Segoe UI", Tahoma, Helvetica, Sans-Serif, serif;
+    font-style: normal;
+    font-size: 14px;
+}
+#root{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.app{
+    width: 100%;
+}
+.opencard{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 2rem;
+    border-radius: .5rem;
+}
+.title{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom:1rem;
+}
+.control{
+    margin-top: 1rem;
+    text-align: right;
+}
+.controlText{
+    font-weight: bold;
+    text-align: center;
+    padding: .5rem;
+    border-radius: .3rem;
+    background-color: #afdfaf;
+}
+.startButton{
+    background-color: skyblue;
+    border-radius: .5rem;
+    padding: 1rem;
+    font-weight: bold;
+    border: solid 1px skyblue;
+    cursor: pointer;
+    margin-top: 1rem;
+    text-align: center;
+}
